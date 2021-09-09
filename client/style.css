@@ -1,10 +1,12 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 :root {
   --main-light: #f2f2f2;
-  --main-dark-ish: rgba(0,0,0,0.3);
+  --main-dark-ish: rgba(0, 0, 0, 0.3);
   --main-dark: rgba(0, 0, 0, 0.7);
   --main-darker: rgba(0, 0, 0, 0.9);
 }
@@ -32,7 +34,7 @@ li {
 a {
   text-decoration: none;
   margin-left: 0px;
-  color: var(--main-darker)
+  color: var(--main-darker);
 }
 
 hr {
@@ -61,8 +63,6 @@ hr {
   margin-right: 10px;
 }
 
-
-
 .lower-footer-left a {
   margin-left: 10px;
 }
@@ -81,9 +81,8 @@ button {
   border-radius: 5%;
 }
 
-
-
-.header {}
+.header {
+}
 
 .actual-footer {
   display: flex;
@@ -101,8 +100,6 @@ footer {
   width: 100%;
   background-color: var(--main-light);
   color: var(--main-dark);
-
-
 }
 
 footer a {
@@ -115,7 +112,7 @@ footer a {
   padding: 10px 50px;
   border-radius: 40px;
   border: 2px solid rgba(0, 0, 0, 0.2);
-  background-image: url('./svg/searchIcon.svg');
+  background-image: url("./svg/searchIcon.svg");
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 24px 24px;
@@ -127,13 +124,14 @@ footer a {
   padding: 10px 50px;
   border-radius: 40px;
   border: 2px solid rgba(0, 0, 0, 0.2);
-  background-image: url('./svg/searchIcon.svg');
+  background-image: url("./svg/searchIcon.svg");
   background-repeat: no-repeat;
   background-position: 10px;
   background-size: 24px 24px;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline: none;
 }
 /* 
@@ -185,22 +183,22 @@ textarea:focus, input:focus{
   margin-right: 10px;
 }
 
-
-.search-buttons {
+.search-button {
   display: flex;
   justify-content: center;
 }
 
 .btn-search:hover {
-  border: 2px solid var(--main-dark-ish)
+  border: 2px solid var(--main-dark-ish);
 }
 
 #search-icon {
-  width:20px;
-  height:20px;
+  width: 20px;
+  height: 20px;
 }
 
-p.country-left {}
+p.country-left {
+}
 
 .card {
   border: 2px solid black;
@@ -220,11 +218,10 @@ p.country-left {}
   display: none;
 }
 
-
 /* results page specific */
 
 .results-bar {
-  margin-top: 5px
+  margin-top: 5px;
 }
 
 .card-host {
